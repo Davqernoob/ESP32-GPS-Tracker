@@ -6,10 +6,10 @@ To get started, you will need at least 3 things:
 
       Connection
 To connect this module to the ESP32 controller, use this pinout:
-1. VCC - 5V
-2. TX - GPIO 16
-3. RX - GPIO 17
-4. GND - GND
+ VCC - 5V
+ TX - GPIO 16
+ RX - GPIO 17
+ GND - GND
 
    After connecting and loading the code, take the assembled device outside with access to the sky. Indoors, the module will receive poor data or no data at all. When it starts displaying information, you'll notice its LED light up and start blinking blue. After that, connect to the Wi-Fi network (ESP32_GPS_Tracker), and then enter this link in the browser on this device: http://192.168.4.1
 
